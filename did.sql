@@ -70,7 +70,7 @@ CREATE DEFINER=`root`@`localhost` PROCEDURE `add_sms`(
  didvar varchar(20),
  outdidvar varchar(20),
  message_idvar varchar(20),
- bodyvar varchar(20)
+ bodyvar varchar(255)
 )
 begin
  declare dididvar int;
